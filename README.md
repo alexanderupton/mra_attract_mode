@@ -9,7 +9,7 @@
 mra_attract_mode can be executed through the interactive shell or through the MiSTer Menu's Scripts folder.
 
 #### Q: What is the mra_attract_mode.ini file used for ?<br>
-Users can define a MRA_TIME key value as a numeric digit to define the number of minutes each Arcade game will remain active before cycling to launch another random Arcade ganme.
+Users can define a MRA_TIME key value as a numeric digit to define the number of minutes each Arcade game will remain active before cycling to launch another random Arcade game.
 
 #### Q: What is the MRA_TIME heiarchy ?<br>
 - When mra_attract_mode is started without a numeric value passed at runtime and there is no value defined in mra_attract_mode.ini, the attract mode will default to 5 minutes before cycling to another Arcaade game.
