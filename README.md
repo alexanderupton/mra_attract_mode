@@ -22,6 +22,7 @@ A: I wanted a way to randomly cycle through available arcade cores to act as a s
 #### Q: what's next ?<br>
 1) Eventually expand the options to include support for Consoles.
 2) Execution through the MiSTer Menu works, but is best managed via the shell as the menu does not have support to pass execution parameters to script executions. If there's any interest I can add a seperate stop wrapper that would be exposed via the menu.
+3) Scheduled runtime. Any interest in an attract mode that would auto-execute or terminate based on a defined time value?
 
 <pre>
 mra_attract_mode <option> <attribute>
