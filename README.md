@@ -16,10 +16,10 @@ Users can define a MRA_TIME key value as a numeric digit to define the number of
 - When mra_attract_mode is started without a numeric value passed at runtime and a MRA_TIME key value pair is defined in mra_attract_mode.ini, the attract mode will cycle to the next Arcaade game based on the defined MRA_TIME in minutes.
 - When mra_attract_mode is started with a attribute numeric value at runtime, the runtime value will supercede any default or ini values and cycle to the next Arcade game based on the defined numeric runtime value in minutes.
 
-#### Q: why write mra_attract_mode ?<br>
+#### Q: Why write mra_attract_mode ?<br>
 A: I wanted a way to randomly cycle through available arcade cores to act as a screen saver and provide attract mode like functionallity without being locked to a single game.
 
-#### Q: what's next ?<br>
+#### Q: What's next ?<br>
 1) Eventually expand the options to include support for Consoles.
 2) Execution through the MiSTer Menu works, but is best managed via the shell as the menu does not have support to pass execution parameters to script executions. If there's any interest I can add a seperate stop wrapper that would be exposed via the menu.
 3) Scheduled runtime. Any interest in an attract mode that would auto-execute or terminate based on a defined time value?
